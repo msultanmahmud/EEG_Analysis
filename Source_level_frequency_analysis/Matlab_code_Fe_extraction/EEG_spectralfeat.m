@@ -1,6 +1,6 @@
 %%% This code is written by Sultan Mahmud on 11 Nov 2018 for spectral
 %%% analysis
-function [thetaBand, alphaBand,betaBand,gammaBand]  = EEG_feat(EEGSignal,fs)
+function [thetaBand, alphaBand,betaBand,gammaBand]  = EEG_spectralfeat(EEGSignal,fs)
 
 [n_electrodes,sing_length] = size(EEGSignal);
 %welch_window_size=1;
